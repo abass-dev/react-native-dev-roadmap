@@ -1,7 +1,7 @@
 const URLHelper = {
-  prefix: 'https://fw.abassdev.com/api/',
-  members: 'https://fw.abassdev.com/api/members',
-  admin: 'https://fw.abassdev.com/api/admin/',
-  investors: 'https://fw.abassdev.com/api/investors/'
+  prefix: 'http://localhost:5000/api',
+  members: `${prefix}/members`,
+  admin: `${prefix}/admin`,
+  investors: `${prefix}/investors`
 }
 export default URLHelper
